@@ -5,7 +5,7 @@ def main():
     # Set page layout to wide (full screen)
     st.set_page_config(layout="wide")
 
-    file_path = r"C:\Users\lenovo\Desktop\hii\Anesthesia2nd\Anesthesia 2nd Year.xlsx"
+    file_path = r"Anesthesia 2nd Year.xlsx"
     df = load_data(file_path)
     if df is not None:
         # Convert dataframe to HTML table and render it using markdown
